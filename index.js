@@ -51,27 +51,27 @@ const info = {
 portfolio: [
     {
         image: 'assets/img/projects/Game1.png',
-        title: 'Bus Simulator (Indonesia)',
+        title: 'Public Transport Bus Simulator',
         type: 'Simulation',
-        link: 'https://play.google.com/store/apps/details?id=com.indian.bus.simulator.ultimate.indonesia.driving.games',
+        link: 'https://play.google.com/store/apps/details?id=com.gf.busdriving.publictransport.citypassenger.drivinggames',
     },
     {
         image: 'assets/img/projects/Game2.png',
-        title: 'Coach Bus Transport',
-        type: 'Simulation',
-        link: 'https://play.google.com/store/apps/details?id=com.gp.coach.bus.transport.freegames',
+        title: 'Prison Escape: Silent Breakout',
+        type: 'Action',
+        link: 'https://play.google.com/store/apps/details?id=com.wg.prison.escape.silent.breakout.game',
     },
     {
         image: 'assets/img/projects/Game3.png',
-        title: 'Open World: Gangster City',
-        type: 'OpenWorld',
-        link: 'https://play.google.com/store/apps/details?id=com.gp.open.world.gangster.city.game',
+        title: 'Offroad Mud Truck Games',
+        type: 'Racing',
+        link: 'https://play.google.com/store/apps/details?id=offroad.racing.game',
     },
     {
         image: 'assets/img/projects/Game4.png',
-        title: 'Farm Simulator Farming Game',
-        type: 'Simulation',
-        link: 'https://play.google.com/store/apps/details?id=com.games.edge.farm.simulator.farming.game',
+        title: 'Grand Mobile: RP Life Simulator',
+        type: 'OpenWorld',
+        link: 'https://play.google.com/store/apps/details?id=com.grand.launcher',
     }
 ],
     skills: [
@@ -145,12 +145,18 @@ document.querySelectorAll("[data-content-list-container]").forEach((ele) => {
     const itemsContainer = ele.querySelector('[data-content-list="items"]')
     itemsContainer.innerHTML = '';
     list.forEach(l => {
-        itemsContainer.innerHTML += `<div class="col-lg-4 col-md-6 portfolio-item filter-${l.type.toLowerCase()}">
-            <div class="portfolio-wrap">
-              <img src="${l.image}" class="img-fluid" alt="">
-              <div class="portfolio-info"><h4>${l.title}</h4><p>${l.type}</p></div>
-            </div>
-          </div>`
-    })
+    itemsContainer.innerHTML += `
+    <div class="col-lg-4 col-md-6 portfolio-item filter-${l.type.toLowerCase()}">
+        <div class="portfolio-wrap">
+          <a href="${l.link}" target="_blank">
+            <img src="${l.image}" class="img-fluid" alt="${l.title}">
+          </a>
+          <div class="portfolio-info">
+            <h4><a href="${l.link}" target="_blank" style="color: inherit;">${l.title}</a></h4>
+            <p>${l.type}</p>
+          </div>
+        </div>
+    </div>`
+})
 });
 document.title = info.name + ' - ' + info.title;

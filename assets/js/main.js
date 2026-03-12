@@ -178,6 +178,7 @@
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
         itemSelector: ".portfolio-item",
+        layoutMode: 'fitRows',
         filter: "*",
       });
 
