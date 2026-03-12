@@ -94,7 +94,7 @@ portfolio: [
     ],
     testimonials: [
     {
-        name: 'Muneeb Ihsan',
+        name: 'MOBASO',
         title: 'Unity Developer',
         message: 'Focused and detail-oriented Unity 3D engine expert.',
     },
