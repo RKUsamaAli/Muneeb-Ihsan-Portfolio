@@ -1,119 +1,110 @@
-const experienceYear = 4; // Adjust as needed
+const experienceYear = 2; 
 const info = {
     name: 'Muneeb Ihsan',
-    title: 'Game Developer, Unity 3D/2D Specialist, C# Expert, AR/VR Developer',
-    subtitle: 'Crafting immersive gaming experiences and interactive environments',
+    title: 'Unity Developer, Game Developer, C# Expert',
+    subtitle: 'Expert in Unity 3D Game Development and Interactive Simulations',
     experienceYear: experienceYear,
-    emailLink: 'mailto:muneeb@example.com', // Update with actual email
-    email: 'muneeb@example.com',
-    phoneLink: 'tel:+92000000000',
-    phone: '+92 3XX XXXXXXX',
-    location: 'Pakistan',
+    emailLink: 'mailto:muneebgaming3333@gmail.com',
+    email: 'muneebgaming3333@gmail.com',
+    phoneLink: 'tel:+923364570926',
+    phone: '03364570926',
+    location: 'Lahore, Pakistan',
     linkedIn: 'https://www.linkedin.com/in/muneebihsan',
-    whatsapp: 'https://api.whatsapp.com/send?phone=92000000000',
+    whatsapp: 'https://api.whatsapp.com/send?phone=923364570926',
     about: `
         <p class="mb-4 text-center">
-            <strong>Passionate Game Developer</strong> with
-            <strong>${experienceYear}+ years of experience</strong> in creating 
-            <strong>high-performance 2D and 3D games</strong>. Specialized in 
-            <strong>Unity Engine</strong> and <strong>C#</strong>, with a deep understanding of 
-            <strong>Game Physics, AI behaviors, and Optimization</strong> for mobile and PC platforms.
+            <strong>Focused and detail-oriented Unity 3D engine expert</strong> with a primary focus on 
+            <strong>Unity 3D Game development</strong> and <strong>C# programming</strong>. 
+            I am a creative and dependable team player dedicated to innovation and efficiently resolving project issues.
           </p>
 
           <p class="mb-4 text-center">
-            Expertise in the full game development lifecycle—from <strong>prototyping mechanics</strong> 
-            to <strong>UI/UX implementation</strong> and <strong>final deployment</strong>. 
-            Experienced in <strong>AR/VR development</strong>, creating interactive simulations 
-            and immersive virtual reality experiences.
+            While primarily a coder, I am proficient in a wide array of skills pertaining to the development of 
+            <strong>2D and 3D games</strong>. I have a proven track record of overseeing projects from the ground up, 
+            including First-Person Shooters (FPS), Third-Person Shooters (TPS), Simulation, and Open-World games.
           </p>
 
           <p class="mb-4 text-center">
-            Proficient in <strong>Multiplayer Integration</strong> using Photon and Mirror, and 
-            <strong>Asset Optimization</strong> using Blender and Maya. Committed to writing 
-            <strong>clean, scalable game code</strong> and implementing <strong>Design Patterns</strong> 
-            to ensure smooth gameplay and maintainability.
+            Beyond technical development, I have experience in <strong>mentoring and training interns</strong>, 
+            guiding teams toward professional excellence and delivering high-quality gaming experiences.
           </p>
         </div>
 
-        <h3 class="text-center mb-4 mt-5">Core Game Development Skills</h3>
+        <h3 class="text-center mb-4 mt-5">Skills & Strengths</h3>
         <div class="row">
           <div class="col-lg-6">
             <ul>
-              <li><p><strong>Unity 3D/2D</strong>: Expert in scene management, prefabs, and physics.</p></li>
-              <li><p><strong>C# Programming</strong>: Scripting gameplay mechanics and systems.</p></li>
-              <li><p><strong>Mobile Optimization</strong>: Ensuring 60 FPS on Android and iOS devices.</p></li>
-              <li><p><strong>AR/VR Development</strong>: Creating apps for Oculus, Vive, and mobile AR.</p></li>
+              <li><p><strong>Unity & Unity 3D</strong>: Core engine expertise for 2D/3D development.</p></li>
+              <li><p><strong>Game Development</strong>: Specialized in FPS, TPS, and Simulation genres.</p></li>
+              <li><p><strong>OOP</strong>: Strong foundation in Object-Oriented Programming with C#.</p></li>
             </ul>
           </div>
           <div class="col-lg-6">
             <ul>
-              <li><p><strong>Multiplayer Systems</strong>: Experience with Photon, Mirror, and Netcode.</p></li>
-              <li><p><strong>Shader Graph</strong>: Creating custom visual effects and materials.</p></li>
-              <li><p><strong>AI & Pathfinding</strong>: Implementing NavMesh and custom NPC behaviors.</p></li>
-              <li><p><strong>Animation Systems</strong>: Working with Animator, IK, and Root Motion.</p></li>
+              <li><p><strong>Business Development</strong>: Strategic growth and project management.</p></li>
+              <li><p><strong>Client Support</strong>: Effectively resolving project issues and client needs.</p></li>
+              <li><p><strong>Point of Sale (POS)</strong>: Technical experience in POS system logic.</p></li>
             </ul>
           </div>
         </div>
     `,
-    portfolio: [
+portfolio: [
+    {
+        image: 'assets/img/projects/Game1.png',
+        title: 'Bus Simulator (Indonesia)',
+        type: 'Simulation',
+        link: 'https://play.google.com/store/apps/details?id=com.indian.bus.simulator.ultimate.indonesia.driving.games',
+    },
+    {
+        image: 'assets/img/projects/Game2.png',
+        title: 'Coach Bus Transport',
+        type: 'Simulation',
+        link: 'https://play.google.com/store/apps/details?id=com.gp.coach.bus.transport.freegames',
+    },
+    {
+        image: 'assets/img/projects/Game3.png',
+        title: 'Open World: Gangster City',
+        type: 'OpenWorld',
+        link: 'https://play.google.com/store/apps/details?id=com.gp.open.world.gangster.city.game',
+    },
+    {
+        image: 'assets/img/projects/Game4.png',
+        title: 'Farm Simulator Farming Game',
+        type: 'Simulation',
+        link: 'https://play.google.com/store/apps/details?id=com.games.edge.farm.simulator.farming.game',
+    }
+],
+    skills: [
         {
-            image: 'assets/img/projects/game-1.png',
-            title: 'Action RPG Adventure',
-            type: 'Game',
-            link: '#',
+            "category": "Core Development",
+            "items": [
+                { "name": "Unity 3D", "expertise": "Expert", "badge_url": "https://img.shields.io/badge/Unity-Expert-000000?style=social&logo=unity" },
+                { "name": "C# / OOP", "expertise": "Expert", "badge_url": "https://img.shields.io/badge/C%23-Expert-239120?style=social&logo=csharp" },
+                { "name": "Game Design", "expertise": "Advanced", "badge_url": "https://img.shields.io/badge/Game_Dev-Advanced-blue?style=social" }
+            ]
         },
         {
-            image: 'assets/img/projects/game-2.png',
-            title: 'Mobile Racing Challenge',
-            type: 'Mobile',
-            link: '#',
-        },
-        {
-            image: 'assets/img/projects/vr-1.png',
-            title: 'VR Training Simulation',
-            type: 'AR/VR',
-            link: '#',
+            "category": "Professional Skills",
+            "items": [
+                { "name": "Business Development", "expertise": "Advanced", "badge_url": "https://img.shields.io/badge/Business-Dev-orange?style=social" },
+                { "name": "Client Support", "expertise": "Expert", "badge_url": "https://img.shields.io/badge/Support-Expert-red?style=social" },
+                { "name": "Point of Sale", "expertise": "Intermediate", "badge_url": "https://img.shields.io/badge/POS_Systems-Intermediate-green?style=social" }
+            ]
         }
     ],
     testimonials: [
-        {
-            image: 'assets/img/testimonials/client-1.png',
-            name: 'John Doe',
-            title: 'Indie Studio Lead',
-            message: "Muneeb's ability to optimize game performance on mobile devices is outstanding. He turned our complex idea into a smooth gameplay experience.",
-        }
-    ],
-    skills: [
-        {
-            "category": "Game Engines",
-            "items": [
-                { "name": "Unity Engine", "expertise": "Expert", "badge_url": "https://img.shields.io/badge/Unity-Expert-000000?style=social&logo=unity" },
-                { "name": "Unreal Engine", "expertise": "Intermediate", "badge_url": "https://img.shields.io/badge/Unreal-Intermediate-313131?style=social&logo=unrealengine" }
-            ]
-        },
-        {
-            "category": "Programming",
-            "items": [
-                { "name": "C#", "expertise": "Expert", "badge_url": "https://img.shields.io/badge/C%23-Expert-239120?style=social&logo=csharp" },
-                { "name": "C++", "expertise": "Intermediate", "badge_url": "https://img.shields.io/badge/C%2B%2B-Intermediate-00599C?style=social&logo=cplusplus" }
-            ]
-        },
-        {
-            "category": "Design & 3D",
-            "items": [
-                { "name": "Blender", "expertise": "Advanced", "badge_url": "https://img.shields.io/badge/Blender-Advanced-F5792A?style=social&logo=blender" },
-                { "name": "Maya", "expertise": "Intermediate", "badge_url": "https://img.shields.io/badge/Maya-Intermediate-37A5CC?style=social&logo=autodesk" }
-            ]
-        },
-        {
-            "category": "Networking & Cloud",
-            "items": [
-                { "name": "Photon Fusion", "expertise": "Advanced", "badge_url": "https://img.shields.io/badge/Photon-Advanced-blue?style=social" },
-                { "name": "Firebase for Games", "expertise": "Expert", "badge_url": "https://img.shields.io/badge/Firebase-Expert-FFCA28?style=social&logo=firebase" }
-            ]
-        }
-    ]
-};
+    {
+        name: 'Muneeb Ihsan',
+        title: 'Unity Developer',
+        message: 'Focused and detail-oriented Unity 3D engine expert.',
+    },
+    {
+        name: 'Game Bit Square',
+        title: 'Senior Developer',
+        message: 'Excellent leadership and technical skills in FPS and Open World games.',
+    }
+],
+}
 
 // ... (Keep the rest of your index.js logic for rendering at the bottom)
 document.querySelectorAll("[data-content-text]").forEach((val) => {
