@@ -148,13 +148,13 @@ document.querySelectorAll("[data-content-list-container]").forEach((ele) => {
     itemsContainer.innerHTML += `
     <div class="col-lg-4 col-md-6 portfolio-item filter-${l.type.toLowerCase()}">
         <div class="portfolio-wrap">
-          <a href="${l.link}" target="_blank">
-            <img src="${l.image}" class="img-fluid" alt="${l.title}">
-          </a>
-          <div class="portfolio-info">
-            <h4><a href="${l.link}" target="_blank" style="color: inherit;">${l.title}</a></h4>
-            <p>${l.type}</p>
-          </div>
+            <a href="${l.link}" target="_blank" class="portfolio-link-full">
+                <img src="${l.image}" class="img-fluid" alt="${l.title}">
+                <div class="portfolio-info">
+                    <h4>${l.title}</h4>
+                    <p>${l.type}</p>
+                </div>
+            </a>
         </div>
     </div>`
 })
