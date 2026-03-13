@@ -72,7 +72,32 @@ portfolio: [
         title: 'Grand Mobile: RP Life Simulator',
         type: 'OpenWorld',
         link: 'https://play.google.com/store/apps/details?id=com.grand.launcher',
-    }
+    },
+    {
+        image: 'assets/img/projects/Game5.png',
+        title: 'Nut Sort Puzzle - Color Sort',
+        type: 'Shooting',
+        link: 'https://play.google.com/store/apps/details?id=nuts.sort.bolts.nut.color.game.free.screw.puzzle&hl=en_US',
+    },
+    {
+        image: 'assets/img/projects/Game6.png',
+        title: 'Screw Nuts - Wood Bolts',
+        type: 'OpenWorld',
+        link: 'https://play.google.com/store/apps/details?id=screw.nuts.bolts.puzzle.wood.woodle.color.sort.unscrew.game&hl=en_US',
+    },
+    {
+        image: 'assets/img/projects/Game7.png',
+        title: 'Brain Puzzle - IQ Test Games',
+        type: 'OpenWorld',
+        link: 'https://play.google.com/store/apps/details?id=braintest.iq.quiz.brain.out.mind.challenge.pass.tricky.puzzles&hl=en_US',
+    },
+    {
+        image: 'assets/img/projects/Game8.png',
+        title: 'Sheep Out: Farm Escape 3D',
+        type: 'OpenWorld',
+        link: 'https://play.google.com/store/apps/details?id=com.horus.sheep.out&hl=en_US',
+    },
+    
 ],
     skills: [
         {
